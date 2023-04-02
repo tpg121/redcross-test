@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DroghedaIRC</title>
+
+<link rel="website icon" type="png" href="images/irc.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="Home.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="Members.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Members</a>
+      <a href="Services.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Services</a>
+      <a href="Gallary.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gallery</a>
+      <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+      <a href="About.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    </div>
+  
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="Members.html" class="w3-bar-item w3-button w3-padding-large">Members</a>
+      <a href="Services.html" class="w3-bar-item w3-button w3-padding-large">Services</a>
+      <a href="Gallary.html" class="w3-bar-item w3-button w3-padding-large">Gallery</a>
+      <a href="Contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+      <a href="About.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    </div>
+  </div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Irish RedCross</h1>
+  <h1 class="w3-xlarge">Drogheda Branch</h1>
+  <h4><p>2-26 Thomas St, East Drogheda, Drogheda, Co. Louth, A92 F21V</p></h4>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Welcome</h1>
+      <h5 class="w3-padding-32">Welcome to the Drogheda Irish Red Cross Branch website.</h5>
+
+      <p class="w3-text-grey">You can find what type of services we provide, pictures of events we have covered, the memebers in our branch and other information.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="images/IRC.jpg" style="width:70%" alt="Concrete meets bricks">
+
+    </div>
+  </div>
+</div>
+
+<!--Google Maps-->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2361.0152813306277!2d-6.343002184580998!3d53.71799015451008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48673a232e1934e3%3A0x2621675378a1928!2sIrish%20Red%20Cross%20Drogheda!5e0!3m2!1sen!2sie!4v1663795254683!5m2!1sen!2sie" width="1600" height="450" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/Drogheda.Redcross"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Founded in 1981</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
